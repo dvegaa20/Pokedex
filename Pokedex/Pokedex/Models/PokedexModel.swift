@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Pokedex {
+struct Pokedex: Codable {
     var count: Int
     var resilts: [Pokemon]
 }
 
-struct Pokemon {
+struct Pokemon: Codable {
     var name: String
     var url: String
 }
